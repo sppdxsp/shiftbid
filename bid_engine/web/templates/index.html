@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="form-container">
+    <h1 class="mb-4">Upload Shift Bidding Files</h1>
+    
+    <form action="{{ url_for('upload_files') }}" method="post" enctype="multipart/form-data">
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="file-upload-container">
+                    <i class="bi bi-list-check file-upload-icon"></i>
+                    <h5>User Selections CSV</h5>
+                    <p class="text-muted">Upload user preferences</p>
+                    <input type="file" class="form-control" name="selections" accept=".csv" required>
+                    <small class="form-text text-muted mt-2">
+                        Format example:<br>
+                        user_id,selection_1,selection_2,selection_3<br>
+                        1,Shift A,Shift B,Shift C
+                    </small>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="file-upload-container">
+                    <i class="bi bi-sort-numeric-down file-upload-icon"></i>
+                    <h5>User Rankings CSV</h5>
+                    <p class="text-muted">Upload user priority rankings</p>
+                    <input type="file" class="form-control" name="rankings" accept=".csv" required>
+                    <small class="form-text text-muted mt-2">
+                        Format example:<br>
+                        user_id,rank<br>
+                        1,1
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="queue_group" class="form-label">Queue Group</label>
+                    <input type="text" class="form-control" id="queue_group" name="queue_group" 
+                           placeholder="Enter queue group name" required>
+                    <small class="form-text text-muted">
+                        Identifier for this group of assignments
+                    </small>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="timezone" class="form-label">Timezone</label>
+                    <select class="form-select" id="timezone" name="timezone" required>
+                        {% for tz in timezones %}
+                        <option value="{{ tz }}" {% if tz == 'UTC' %}selected{% endif %}>{{ tz }}</option>
+                        {% endfor %}
+                    </select>
+                    <small class="form-text text-muted">
+                        Select the timezone for the assignments
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg">
+                <i class="bi bi-arrow-right-circle me-2"></i>
+                Process Assignments
+            </button>
+        </div>
+    </form>
+</div>
+
+<div class="mt-4">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">
+                <i class="bi bi-info-circle me-2"></i>
+                How it works
+            </h5>
+            <ol class="card-text">
+                <li>Upload your user selections CSV file containing each user's preferred shifts in order</li>
+                <li>Upload your user rankings CSV file containing the priority order for assignment</li>
+                <li>Enter a queue group name to identify this batch of assignments</li>
+                <li>Select the appropriate timezone</li>
+                <li>Click "Process Assignments" to generate the assignments</li>
+                <li>Download the results file containing the final assignments</li>
+            </ol>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Add file name display
+    document.querySelectorAll('input[type="file"]').forEach(function(input) {
+        input.addEventListener('change', function(e) {
+            const fileName = e.target.files[0]?.name || 'No file chosen';
+            const container = e.target.closest('.file-upload-container');
+            const existingDisplay = container.querySelector('.file-name-display');
+            
+            if (existingDisplay) {
+                existingDisplay.textContent = fileName;
+            } else {
+                const display = document.createElement('div');
+                display.className = 'file-name-display mt-2 text-primary';
+                display.textContent = fileName;
+                container.appendChild(display);
+            }
+        });
+    });
+});
+</script>
+{% endblock %} 

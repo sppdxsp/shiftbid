@@ -1,0 +1,70 @@
+User,Assigned Item,Choice #,Rank,All Selections
+800096,"IRLC&D INT09:00AM - 06:00PM, =MTWRF=, Weekday",1 (1st),5,"IRLC&D INT09:00AM - 06:00PM, =MTWRF=, Weekday, IRLC&D INT08:00AM - 05:00PM, =MTWRF=, Weekday, IRLC&D INT09:00AM - 06:00PM, ==TWRFY, Sat, IRLC&D INT07:30AM - 04:30PM, =MTWRF=, Weekday, IRLC&D INT10:00AM - 07:00PM, =MTWRF=, Weekday, IRLC&D INT10:00AM - 07:00PM, ==TWRFY, Sat, IRLC&D INT[4x10] 09:00AM - 08:00PM, SMTW===, Sun, IRLC&D INT[4x10] 09:30AM - 08:30PM, ===WRFY, Sat, IRLC&D INT10:30AM - 07:30PM, SMTWR==, Sun, IRLC&D INT10:15AM - 07:15PM, SM==RFY, Both, , , , , "
+800344,"IRLC&D INT07:30AM - 04:30PM, =MTWRF=, Weekday",1 (1st),24,"IRLC&D INT07:30AM - 04:30PM, =MTWRF=, Weekday, IRLC&D INT08:00AM - 05:00PM, =MTWRF=, Weekday, IRLC&D INT09:00AM - 06:00PM, =MTWRF=, Weekday, IRLC&D INT10:00AM - 07:00PM, =MTWRF=, Weekday, IRLC&D INT09:00AM - 06:00PM, ==TWRFY, Sat, IRLC&D INT10:00AM - 07:00PM, ==TWRFY, Sat, IRLC&D INT10:15AM - 07:15PM, SM==RFY, Both, IRLC&D INT[4x10] 09:30AM - 08:30PM, ===WRFY, Sat, IRLC&D INT[4x10] 09:00AM - 08:00PM, SMTW===, Sun, IRLC&D INT10:30AM - 07:30PM, SMTWR==, Sun, , , , , "
+800343,"IRLC&D INT08:00AM - 05:00PM, =MTWRF=, Weekday",1 (1st),29,"IRLC&D INT08:00AM - 05:00PM, =MTWRF=, Weekday, IRLC&D INT09:00AM - 06:00PM, =MTWRF=, Weekday, IRLC&D INT07:30AM - 04:30PM, =MTWRF=, Weekday, IRLC&D INT10:00AM - 07:00PM, =MTWRF=, Weekday, IRLC&D INT[4x10] 09:00AM - 08:00PM, SMTW===, Sun, IRLC&D INT10:30AM - 07:30PM, SMTWR==, Sun, IRLC&D INT09:00AM - 06:00PM, ==TWRFY, Sat, IRLC&D INT10:00AM - 07:00PM, ==TWRFY, Sat, IRLC&D INT[4x10] 09:30AM - 08:30PM, ===WRFY, Sat, IRLC&D INT10:15AM - 07:15PM, SM==RFY, Both, , , , , "
+800382,"IRLC&D INT09:00AM - 06:00PM, ==TWRFY, Sat",4 (4th),35,"IRLC&D INT08:00AM - 05:00PM, =MTWRF=, Weekday, IRLC&D INT07:30AM - 04:30PM, =MTWRF=, Weekday, IRLC&D INT09:00AM - 06:00PM, =MTWRF=, Weekday, IRLC&D INT09:00AM - 06:00PM, ==TWRFY, Sat, IRLC&D INT10:00AM - 07:00PM, =MTWRF=, Weekday, IRLC&D INT[4x10] 09:00AM - 08:00PM, SMTW===, Sun, IRLC&D INT10:00AM - 07:00PM, ==TWRFY, Sat, IRLC&D INT[4x10] 09:30AM - 08:30PM, ===WRFY, Sat, IRLC&D INT10:30AM - 07:30PM, SMTWR==, Sun, IRLC&D INT10:15AM - 07:15PM, SM==RFY, Both, , , , , "
+800635,"IRLC&D FND07:30AM - 04:30PM, =MTWRF=, Weekday",1 (1st),41,"IRLC&D FND07:30AM - 04:30PM, =MTWRF=, Weekday, IRLC&D FND08:00AM - 05:00PM, =MTWRF=, Weekday, IRLC&D FND09:00AM - 06:00PM, =MTWRF=, Weekday, IRLC&D FND10:00AM - 07:00PM, =MTWRF=, Weekday, IRLC&D FND09:00AM - 06:00PM, ==TWRFY, Sat, IRLC&D FND10:00AM - 07:00PM, ==TWRFY, Sat, IRLC&D FND10:15AM - 07:15PM, SM==RFY, Both, IRLC&D FND10:30AM - 07:30PM, SMTWR==, Sun, IRLC&D FND[4x10] 09:00AM - 08:00PM, SMTW===, Sun, IRLC&D FND[4x10] 09:30AM - 08:30PM, ===WRFY, Sat, , , , , "
+800321,"IRLC&D INT10:00AM - 07:00PM, =MTWRF=, Weekday",4 (4th),51,"IRLC&D INT07:30AM - 04:30PM, =MTWRF=, Weekday, IRLC&D INT08:00AM - 05:00PM, =MTWRF=, Weekday, IRLC&D INT09:00AM - 06:00PM, =MTWRF=, Weekday, IRLC&D INT10:00AM - 07:00PM, =MTWRF=, Weekday, IRLC&D INT09:00AM - 06:00PM, ==TWRFY, Sat, IRLC&D INT10:00AM - 07:00PM, ==TWRFY, Sat, IRLC&D INT[4x10] 09:00AM - 08:00PM, SMTW===, Sun, IRLC&D INT[4x10] 09:30AM - 08:30PM, ===WRFY, Sat, IRLC&D INT10:30AM - 07:30PM, SMTWR==, Sun, IRLC&D INT10:15AM - 07:15PM, SM==RFY, Both, , , , , "
+800634,"IRLC&D FND09:00AM - 06:00PM, =MTWRF=, Weekday",1 (1st),55,"IRLC&D FND09:00AM - 06:00PM, =MTWRF=, Weekday, IRLC&D FND08:00AM - 05:00PM, =MTWRF=, Weekday, IRLC&D FND07:30AM - 04:30PM, =MTWRF=, Weekday, IRLC&D FND10:30AM - 07:30PM, SMTWR==, Sun, IRLC&D FND10:00AM - 07:00PM, =MTWRF=, Weekday, IRLC&D FND10:00AM - 07:00PM, ==TWRFY, Sat, IRLC&D FND10:15AM - 07:15PM, SM==RFY, Both, IRLC&D FND09:00AM - 06:00PM, ==TWRFY, Sat, IRLC&D FND[4x10] 09:00AM - 08:00PM, SMTW===, Sun, IRLC&D FND[4x10] 09:30AM - 08:30PM, ===WRFY, Sat, , , , , "
+801043,"IRLC&D FND08:00AM - 05:00PM, =MTWRF=, Weekday",2 (2nd),58,"IRLC&D FND09:00AM - 06:00PM, =MTWRF=, Weekday, IRLC&D FND08:00AM - 05:00PM, =MTWRF=, Weekday, IRLC&D FND10:00AM - 07:00PM, =MTWRF=, Weekday, IRLC&D FND07:30AM - 04:30PM, =MTWRF=, Weekday, IRLC&D FND09:00AM - 06:00PM, ==TWRFY, Sat, IRLC&D FND10:00AM - 07:00PM, ==TWRFY, Sat, IRLC&D FND[4x10] 09:30AM - 08:30PM, ===WRFY, Sat, IRLC&D FND10:30AM - 07:30PM, SMTWR==, Sun, IRLC&D FND[4x10] 09:00AM - 08:00PM, SMTW===, Sun, IRLC&D FND10:15AM - 07:15PM, SM==RFY, Both, , , , , "
+801019,"IRLC&D FND10:00AM - 07:00PM, =MTWRF=, Weekday",4 (4th),63,"IRLC&D FND08:00AM - 05:00PM, =MTWRF=, Weekday, IRLC&D FND09:00AM - 06:00PM, =MTWRF=, Weekday, IRLC&D FND07:30AM - 04:30PM, =MTWRF=, Weekday, IRLC&D FND10:00AM - 07:00PM, =MTWRF=, Weekday, IRLC&D FND09:00AM - 06:00PM, ==TWRFY, Sat, IRLC&D FND10:00AM - 07:00PM, ==TWRFY, Sat, IRLC&D FND10:30AM - 07:30PM, SMTWR==, Sun, IRLC&D FND[4x10] 09:00AM - 08:00PM, SMTW===, Sun, IRLC&D FND[4x10] 09:30AM - 08:30PM, ===WRFY, Sat, IRLC&D FND10:15AM - 07:15PM, SM==RFY, Both, , , , , "
+2054,No assignment,N/A,6,No selections
+800265,No assignment,N/A,10,No selections
+800267,No assignment,N/A,3,No selections
+1549,No assignment,N/A,28,No selections
+1810,No assignment,N/A,11,No selections
+2068,No assignment,N/A,8,No selections
+2085,No assignment,N/A,37,No selections
+2357,No assignment,N/A,31,No selections
+316,No assignment,N/A,1,No selections
+2376,No assignment,N/A,21,No selections
+2635,No assignment,N/A,48,No selections
+2637,No assignment,N/A,69,No selections
+2639,No assignment,N/A,9,No selections
+800081,No assignment,N/A,2,No selections
+2641,No assignment,N/A,17,No selections
+1368,No assignment,N/A,19,No selections
+612,No assignment,N/A,4,No selections
+800615,No assignment,N/A,15,No selections
+2172,No assignment,N/A,20,No selections
+1663,No assignment,N/A,13,No selections
+800384,No assignment,N/A,62,No selections
+2439,No assignment,N/A,22,No selections
+800649,No assignment,N/A,50,No selections
+800651,No assignment,N/A,25,No selections
+2444,No assignment,N/A,30,No selections
+800653,No assignment,N/A,68,No selections
+800652,No assignment,N/A,46,No selections
+2443,No assignment,N/A,49,No selections
+2445,No assignment,N/A,57,No selections
+800655,No assignment,N/A,65,No selections
+2450,No assignment,N/A,32,No selections
+2451,No assignment,N/A,34,No selections
+2457,No assignment,N/A,59,No selections
+800930,No assignment,N/A,60,No selections
+2467,No assignment,N/A,14,No selections
+500133,No assignment,N/A,43,No selections
+2470,No assignment,N/A,40,No selections
+500134,No assignment,N/A,44,No selections
+800681,No assignment,N/A,45,No selections
+800684,No assignment,N/A,66,No selections
+800945,No assignment,N/A,52,No selections
+500146,No assignment,N/A,38,No selections
+800948,No assignment,N/A,61,No selections
+800693,No assignment,N/A,67,No selections
+800694,No assignment,N/A,39,No selections
+800698,No assignment,N/A,42,No selections
+1727,No assignment,N/A,26,No selections
+1740,No assignment,N/A,27,No selections
+800974,No assignment,N/A,54,No selections
+800975,No assignment,N/A,56,No selections
+800976,No assignment,N/A,36,No selections
+800977,No assignment,N/A,53,No selections
+800979,No assignment,N/A,64,No selections
+800980,No assignment,N/A,23,No selections
+800983,No assignment,N/A,47,No selections
+800984,No assignment,N/A,18,No selections
+800218,No assignment,N/A,7,No selections
+1770,No assignment,N/A,12,No selections
+1772,No assignment,N/A,16,No selections
+2800,No assignment,N/A,33,No selections
