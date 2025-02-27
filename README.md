@@ -31,7 +31,7 @@ user_id,rank
 1. Clone the repository
 2. Create a virtual environment:
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 3. Install dependencies:
